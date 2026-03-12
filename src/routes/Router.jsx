@@ -6,6 +6,7 @@ import Services from "../pages/Services"
 import Projects from "../pages/Projects"
 import Blog from "../pages/Blog"
 import Contact from "../pages/Contact"
+import Join from "../pages/Join"
 import NotFound from "../pages/NotFound"
 
 export default function Router() {
@@ -19,6 +20,7 @@ export default function Router() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/join" element={<Join />} />
 
         <Route path="*" element={<NotFound />} />
 
