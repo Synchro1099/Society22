@@ -18,7 +18,7 @@ Route::post('/submissions', [SubmissionController::class, 'store'])
 
 // --- NEW: Route to list all forms for the selection hub ---
 Route::get('/forms', function () {
-    return Form::all(['event_name', 'slug']);
+    return Form::all(['event_name', 'slug', 'google_form_url']);
 });
 
 // --- NEW: Route to fetch a specific dynamic form schema ---

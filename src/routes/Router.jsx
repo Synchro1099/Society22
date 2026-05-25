@@ -35,6 +35,7 @@ export default function Router() {
         <Route path="/blogs/:id" element={<BlogDetail />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/join" element={<Join />} />
+        <Route path="/forms/:slug" element={<Join />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/faqs" element={<Faqs />} />
